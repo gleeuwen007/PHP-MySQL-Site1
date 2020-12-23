@@ -1,10 +1,8 @@
 <?php require_once('../../../private/initialize.php'); ?>
 
-<?php
-    $id = $_GET['id'] ?? '1';   
-?>
-
+<?php $id = $_GET['id'] ?? '1'; ?>
 <?php $page_title = 'Show Subject'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
